@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <head>
+        <title>Hasil Studi Semester 4 Program Studi S1 Informatika</title>
+    </head>
+    <body>
+        <div id="header"> 
+            <h1>Daftar Nilai Mata Kuliah Semester Genap</h1>
+            <div>
+                <div>
+                    <table id="daftar" cellspacing="0" cellpadding="0">
+                        <thead>
+                            <tr>
+                                <th><span>Mata Kuliah</span></th>
+                                <th><span>Nilai Angka</span></th>
+                                <th><span>Jumlah SKS</span></th>
+                                <th><span>Nilai Huruf</span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="lalign">
+                                    <script>document.write(matkul[0])</script>
+                                </td>
+                                <td>
+                                    <script>document.write(nilai[0])</script>
+                                </td>
+                                <td>
+                                    <script>document.write(sks[0])</script>
+                                </td>
+                                <td>
+                                    <button id="konversi1" onclick="konversiNilai1(nilai[0])">Konversi</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="lalign">
+                                    <script>document.write(matkul[1])</script>
+                                </td>
+                                <td>
+                                    <script>document.write(nilai[1])</script>
+                                </td>
+                                <td>
+                                    <script>document.write(sks[1])</script>
+                                </td>
+                                <td>
+                                    <button id="konversi2" onclick="konversiNilai2(nilai[1])">Konversi</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="lalign">
+                                    <script>document.write(matkul[2])</script>
+                                </td>
+                                <td>
+                                    <script>document.write(nilai[2])</script>
+                                </td>
+                                <td>
+                                    <script>document.write(sks[2])</script>
+                                </td>
+                                <td>
+                                    <button id="konversi3" onclick="konversiNilai3(nilai[2])">Konversi</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="lalign">
+                                    <script>document.write(matkul[3])</script>
+                                </td>
+                                <td>
+                                    <script>document.write(nilai[3])</script>
+                                </td>
+                                <td>
+                                    <script>document.write(sks[3])</script>
+                                </td>
+                                <td>
+                                    <button id="konversi4" onclick="konversiNilai4(nilai[3])">Konversi</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="lalign">
+                                    <script>document.write(matkul[4])</script>
+                                </td>'
+                                <td>
+                                    <script>document.write(nilai[4])</script>
+                                </td>
+                                <td>
+                                    <script>document.write(sks[4])</script>
+                                </td>
+                                <td>
+                                    <button id="konversi5" onclick="konversiNilai5(nilai[4])">Konversi</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table id="daftar" cellspacing="0" cellpadding="0">
+                        <thead>
+                            <tr>
+                                <th><span>Indeks Prestasi Kumulatif (IPK)</span></td>
+                                <th><span>
+                                    <button id="hasil" onclick="hitungIP()">Hasil</button>
+                                </th></span>
+                            </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
